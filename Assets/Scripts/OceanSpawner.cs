@@ -23,7 +23,7 @@ public class OceanSpawner : MonoBehaviour
         GameObject moveOcean = ocean[0];
         ocean.Remove(moveOcean);
         float newZ = ocean[ocean.Count - 1].transform.position.z + offset;
-        moveOcean.transform.position = new Vector3(0, 0, newZ);
+        moveOcean.transform.position = new Vector3(0, -2, newZ);
         ocean.Add(moveOcean);
     }
 }

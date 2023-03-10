@@ -78,6 +78,12 @@
      <Compile Include="Assets\Scripts\PlayerAnimation.cs" />
      <Compile Include="Assets\RealToon\RealToon Shaders\Effects\DeNorSob Outline\DeNorSobOutline.cs" />
      <Compile Include="Assets\Scripts\OceanSpawner.cs" />
+     <Compile Include="Assets\Scripts\ObstacleSpawner.cs" />
+     <Compile Include="Assets\Scripts\RoadManager.cs" />
+     <Compile Include="Assets\Scripts\ObstacleHide.cs" />
+     <Compile Include="Assets\Scripts\PortalTrigger.cs" />
+     <Compile Include="Assets\Scripts\EventsManager.cs" />
+     <Compile Include="Assets\Scripts\PlayerColorChange.cs" />
      <None Include="Assets\Epic Toon FX\Prefabs\Environment\Environment FX.txt" />
      <None Include="Assets\StylizedWater2\Shaders\Libraries\Lighting.hlsl" />
      <None Include="Assets\StylizedWater2\Shaders\Libraries\Features.hlsl" />

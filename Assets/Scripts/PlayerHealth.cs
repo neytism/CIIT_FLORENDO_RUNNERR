@@ -32,8 +32,16 @@ public class PlayerHealth : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
+        
         if (other.CompareTag("Obstacles"))
         {
+            if (currentHealth <= 0)
+            {
+                Time.timeScale = 0f;
+                Debug.Log("GameOver");
+                return;
+            }
+            
             objectsToDisable[currentHealth-1].SetActive(false);
             currentHealth--;
             
